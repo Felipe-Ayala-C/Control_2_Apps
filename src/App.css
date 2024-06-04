@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.inputclass{
+  margin-left: 5px;
+}
+
+.favoritebutton{
+  cursor: pointer;
+  margin-left: 16px;
+  border: 0;
+  border-radius: 999px;
+  padding: 6px 16px;
+  border: 1px solid #000;
+  background-color: rgb(255, 240, 36);
+  font-weight: bolder;
+  transition: .4s ease background-color;
+}
+
+.buttonx{
+  cursor: pointer;
+  margin-left: 16px;
+  border: 0;
+  border-radius: 999px;
+  padding: 6px 16px;
+  border: 1px solid #000;
+  background-color: rgb(255, 128, 0);
+  font-weight: bolder;
+  transition: .4s ease background-color;
+}
+
+.buttonx:hover{
+  color: white;
+  background-color: rgb(255, 0, 0);
+  transition: .4s ease all;
+}
+
+.botonrandom{
+  cursor: pointer;
+  margin-left: 16px;
+  margin-bottom: 10px;
+  border: 0;
+  border-radius: 999px;
+  padding: 6px 16px;
+  border: 4px solid #000;
+  background-color: rgb(255, 128, 0);
+  font-weight: bolder;
+  transition: .4s ease background-color;
+}
+
+.botonrandom:hover{
+  color: white;
+  background-color: rgb(255, 0, 0);
+  transition: .4s ease all;
+}
+
+
+.like-button{
+  cursor: pointer;
+  margin-left: 16px;
+  border: 0;
+  border-radius: 999px;
+  padding: 6px 16px;
+  font-weight: bold;
+  border: 1px solid #000;
+  transition: .4s ease background-color;
+}
+
+.like-button:hover{
+  color: white;
+  background-color: blue;
+  transition: .4s ease all;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
