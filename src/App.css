@@ -29,6 +29,77 @@
   color: #61dafb;
 }
 
+.inputclass{
+  margin-left: 5px;
+}
+
+.favoritebutton{
+  cursor: pointer;
+  margin-left: 16px;
+  border: 0;
+  border-radius: 999px;
+  padding: 6px 16px;
+  border: 1px solid #000;
+  background-color: rgb(255, 240, 36);
+  font-weight: bolder;
+  transition: .4s ease background-color;
+}
+
+.buttonx{
+  cursor: pointer;
+  margin-left: 16px;
+  border: 0;
+  border-radius: 999px;
+  padding: 6px 16px;
+  border: 1px solid #000;
+  background-color: rgb(255, 128, 0);
+  font-weight: bolder;
+  transition: .4s ease background-color;
+}
+
+.buttonx:hover{
+  color: white;
+  background-color: rgb(255, 0, 0);
+  transition: .4s ease all;
+}
+
+.botonrandom{
+  cursor: pointer;
+  margin-left: 16px;
+  margin-bottom: 10px;
+  border: 0;
+  border-radius: 999px;
+  padding: 6px 16px;
+  border: 4px solid #000;
+  background-color: rgb(255, 128, 0);
+  font-weight: bolder;
+  transition: .4s ease background-color;
+}
+
+.botonrandom:hover{
+  color: white;
+  background-color: rgb(255, 0, 0);
+  transition: .4s ease all;
+}
+
+
+.like-button{
+  cursor: pointer;
+  margin-left: 16px;
+  border: 0;
+  border-radius: 999px;
+  padding: 6px 16px;
+  font-weight: bold;
+  border: 1px solid #000;
+  transition: .4s ease background-color;
+}
+
+.like-button:hover{
+  color: white;
+  background-color: blue;
+  transition: .4s ease all;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

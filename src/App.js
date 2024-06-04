@@ -30,13 +30,14 @@ function App() {
   return (
     <div className="App">
       <img src="https://i.pinimg.com/originals/0c/b7/3f/0cb73f580ed858fff4837c90a185f41a.jpg"/>
-      <h1>CONTROL 2 APPS</h1>
+      <h1>CONTROL 2 TEL335</h1>
       {loading && <p>loading...</p>}
       {error && <p>{error}</p>}
-      <button onClick={fecthGETall}> Broma random </button>
+      <button className="botonrandom" onClick={fecthGETall}> Broma random </button>
       <br />
-      <button onClick={fecthGET}> Hacer GET </button>
+      <button className="buttonx" onClick={fecthGET}> Hacer GET </button>
       <input
+        className="inputclass"
         type="text"
         value={queryInput}
         onChange={(e) => setQueryInput(e.target.value)}
@@ -52,7 +53,7 @@ function App() {
                 <p><strong>Categorias:</strong> {joke.categories.join(', ')}</p>
                 <p><strong>Fecha de creacion:</strong> {joke.created_at}</p>
                 <p><strong>Fact:</strong> {joke.value}</p>
-                <button onClick={() => addToFavorites(joke)}>Me gusta</button>
+                <button className="like-button" onClick={() => addToFavorites(joke)}>Me gusta</button>  
               </div>
             ))
           ) : (
@@ -64,7 +65,7 @@ function App() {
           <p></p>
         )}
         </div>
-      <button onClick={toggleFavorites}>Ver Favoritos</button>
+      <button className="favoritebutton"onClick={toggleFavorites}>Ver Favoritos</button>
       {showFavorites && (
         <div>
           <h2>Favoritos:</h2>
